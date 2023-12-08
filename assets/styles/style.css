@@ -1,0 +1,4 @@
+rect:hover {
+  fill: red !important;
+  stroke: rgb(172, 28, 85);
+}

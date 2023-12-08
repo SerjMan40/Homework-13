@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+  <svg width="500" height="700">
+    <rect x="200" y="50" width="100" height="100" fill="indigo" stroke="green" stroke-width="5px"></rect>
+
+    <rect x="200" y="200" width="200" height="100" fill="blue" stroke="red" stroke-width="5px"></rect>
+
+    <circle cx="250" cy="400" r="50" fill="yellow" stroke="blue" stroke-width="5px"> </circle>
+
+    <ellipse cx="250" cy="550" rx="50" ry="60" fill="green" stroke="yellow" stroke-width="5px"></ellipse>
+  </svg>
+
+
+  <svg width="500" height="700">
+    <rect x="200" y="50" width="100" height="100" fill="red" stroke="green" stroke-width="5px">
+      <animate attributeName="fill" values="green; blue; yellow" dur="4s" repeatCount="indefinite"> </animate>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="150 20" begin="0s" dur="2s"
+        repeatCount="indefinite"></animateTransform>
+    </rect>
+  </svg>
+
+
+</body>
+
+</html>
